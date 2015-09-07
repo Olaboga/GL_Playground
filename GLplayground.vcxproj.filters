@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{e269a14c-e001-4aa1-b6ce-d5bb8c40de3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GLFW">
+      <UniqueIdentifier>{fd3392fc-8736-44a1-923f-7dd2857fe4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GLEW">
+      <UniqueIdentifier>{ad447d27-7f1c-4898-b6cb-0803164d994e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GLM">
+      <UniqueIdentifier>{ac88463e-5d80-475a-9c6c-643d08cb10a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{7b134f3c-c50b-47f6-a37f-2e5ac61cc3bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GLFW\GLFW_Helper.cpp">
+      <Filter>src\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GLSLShader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\GLFW\glfw3.h">
+      <Filter>src\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLFW\glfw3native.h">
+      <Filter>src\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLEW\glew.h">
+      <Filter>src\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLEW\glxew.h">
+      <Filter>src\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLEW\wglew.h">
+      <Filter>src\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLFW\GLFW_Helper.h">
+      <Filter>src\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\common.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\exponential.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\ext.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\fwd.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\geometric.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\glm.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\integer.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\mat2x2.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\mat2x3.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\mat2x4.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\mat3x2.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\mat3x3.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\mat3x4.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\mat4x2.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\mat4x3.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\mat4x4.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\matrix.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\packing.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\trigonometric.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\vec2.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\vec3.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\vec4.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glm\vector_relational.hpp">
+      <Filter>src\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLSLShader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\glm\CMakeLists.txt">
+      <Filter>src\GLM</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\shader.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\shader.frag">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

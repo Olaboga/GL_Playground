@@ -41,3 +41,21 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+Debug/GLFW_Helper.obj
+Debug/GLplayground.ilk
+Debug/GLplayground.exe
+Debug/GLplayground.log
+Debug/GLplayground.pdb
+Debug/GLSLShader.obj
+Debug/GLplayground.tlog/cl.command.1.tlog
+Debug/GLplayground.tlog/CL.read.1.tlog
+Debug/Input.obj
+Debug/vc120.pdb
+Debug/vc120.idb
+Debug/Mesh.obj
+Debug/GLplayground.tlog/link.write.1.tlog
+Debug/main.obj
+Debug/GLplayground.tlog/link.read.1.tlog
+Debug/GLplayground.tlog/link.command.1.tlog
+Debug/GLplayground.tlog/GLplayground.lastbuildstate
+Debug/GLplayground.tlog/CL.write.1.tlog
