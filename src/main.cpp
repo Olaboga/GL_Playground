@@ -114,6 +114,7 @@ int main()
 		glDrawArrays(GL_TRIANGLES, 0, mesh.vertCount);
 		glfwSwapBuffers(window);
 		glfwPollEvents();
+		shader.UnUse();
 	} 
 
 	glfwTerminate();
